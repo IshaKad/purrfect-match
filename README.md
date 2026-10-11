@@ -1,7 +1,7 @@
 # Purrfect Match 🐾
 A playful, portfolio-grade cat rescue and adoption platform concept for Mumbai and nearby areas.
 
-## Stage 1 — UI prototype
+## UI prototype
 - Responsive homepage and navigation
 - Cat listing with search, neighbourhood and status filters
 - Rescue report form with client-side validation
@@ -27,7 +27,7 @@ Routes:
 - `/report-rescue` — demo rescue intake form
 - `/admin` — demo operations dashboard (not secured)
 
-## Stage 2 plan — Supabase backend
+## Supabase backend
 1. Create Supabase project and configure `.env.local` from `.env.example`.
 2. Add SQL schema for `profiles`, `cats`, `adoption_applications`, `rescue_reports`, `rescue_updates` and `volunteer_applications`.
 3. Enable Row Level Security (RLS) policies for public read-only adoptable cat profiles, private applicant records, and authorized staff-only case access.
